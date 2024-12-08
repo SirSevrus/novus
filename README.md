@@ -1,1 +1,93 @@
-# Novus
+# Project Name
+
+## Overview
+This project is a Flask-based web application designed for demonstrating structured route handling, error pages, and environment configuration. It includes modular route handling with separate Python files for each route, custom error handling templates, environment configuration, and dynamic CSS-styled error pages.
+
+## Features
+- Modular route handling with separate route files.
+- Custom error handling for 404 (Not Found) and 405 (Method Not Allowed) errors.
+- Environment configuration using a `.env` file.
+- Comprehensive logging to track application activity.
+- Directory creation functions for setting up the project structure.
+- CSS-styled templates for better user experience.
+
+## Prerequisites
+Ensure that the following software is installed on your system:
+- [Python](https://www.python.org/downloads/) (version >= 3.x)
+- [pip](https://pip.pypa.io/en/stable/installation/) for Python package management
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/yourprojectname.git
+   cd yourprojectname
+   ```
+
+2. Install required Python packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Create and configure your `.env` file in the project root:
+   ```
+   APP_NAME=your_app_name
+   HOST=localhost
+   PORT=5000
+   DEBUG=true
+   ```
+
+4. Run the function to create a sample `.env` file if needed:
+   ```python
+   from your_module import create_env_file
+   create_env_file()
+   ```
+
+## Directory Structure
+```
+projectname/
+│
+├── routes/                # Route files (e.g., home.py, about.py, errors.py)
+│   └── errors.py          # Error handling routes
+│
+├── templates/             # HTML template files
+│   ├── 404.html           # Custom 404 page
+│   └── 405.html           # Custom 405 page
+│   └── index.html         # Main index page
+│
+├── static/                # Static files (CSS, JS, images)
+│   └── css/               # CSS files
+│       └── errors.css     # Styling for error pages
+│
+├── .env                   # Environment variables file
+├── app.py                 # Main application script
+├── requirements.txt       # List of required Python packages
+└── README.md              # Project documentation
+```
+
+## Usage
+1. Run the Flask application:
+   ```bash
+   python app.py
+   ```
+
+2. Access the application at `http://localhost:5000` in your browser.
+
+3. Test error handling by visiting non-existent routes or using disallowed HTTP methods.
+
+## Error Handling
+- **404 - Not Found**: Served by `templates/404.html`
+- **405 - Method Not Allowed**: Served by `templates/405.html`
+
+## Logging
+Logs are stored in the `logs/` directory to monitor application activity. Ensure the directory exists or use the provided function to create it.
+
+## Contributing
+Contributions are welcome! Please fork this repository, make your changes, and submit a pull request.
+
+## License
+This project is licensed under the [Your License Name] license. See the [LICENSE](./LICENSE) file for more details.
+
+## Acknowledgements
+- Flask for the web framework
+- `tqdm` for progress bars
+- Any other libraries or tools used in the project
