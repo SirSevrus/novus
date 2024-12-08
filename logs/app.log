@@ -1,0 +1,32 @@
+2024-12-08 12:50:53,358 - INFO - Starting setup for the Flask app...
+2024-12-08 12:50:56,502 - INFO - Registered blueprint 'about_bp' from 'routes.about'
+2024-12-08 12:50:56,513 - INFO - Registered blueprint 'home_bp' from 'routes.home'
+2024-12-08 12:50:56,515 - INFO - App configured with name 'novus', running on http://localhost:5000, debug=False
+2024-12-08 12:50:56,517 - INFO - Starting Flask server on http://localhost:5000...
+2024-12-08 12:50:56,618 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2024-12-08 12:50:56,623 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-08 12:51:18,245 - INFO - 127.0.0.1 - - [08/Dec/2024 12:51:18] "GET / HTTP/1.1" 200 -
+2024-12-08 12:56:26,445 - INFO - Starting setup for the Flask app...
+2024-12-08 12:56:29,621 - INFO - Registered blueprint 'about_bp' from 'routes.about'
+2024-12-08 12:56:29,664 - INFO - Registered blueprint 'errors_bp' from 'routes.errors'
+2024-12-08 12:56:29,664 - INFO - Registered blueprint 'home_bp' from 'routes.home'
+2024-12-08 12:56:29,671 - INFO - App configured with name 'novus', running on http://localhost:5000, debug=False
+2024-12-08 12:56:29,671 - INFO - Starting Flask server on http://localhost:5000...
+2024-12-08 12:56:29,728 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2024-12-08 12:56:29,731 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-08 12:57:22,328 - INFO - Starting setup for the Flask app...
+2024-12-08 12:57:25,490 - INFO - Registered blueprint 'about_bp' from 'routes.about'
+2024-12-08 12:57:25,503 - INFO - Registered blueprint 'errors_bp' from 'routes.errors'
+2024-12-08 12:57:25,503 - INFO - Registered blueprint 'home_bp' from 'routes.home'
+2024-12-08 12:57:25,509 - INFO - App configured with name 'novus', running on http://localhost:5000, debug=False
+2024-12-08 12:57:25,509 - INFO - Starting Flask server on http://localhost:5000...
+2024-12-08 12:57:25,574 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2024-12-08 12:57:25,576 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-08 12:57:31,443 - INFO - 127.0.0.1 - - [08/Dec/2024 12:57:31] "GET / HTTP/1.1" 200 -
+2024-12-08 12:57:35,262 - INFO - 127.0.0.1 - - [08/Dec/2024 12:57:35] "[33mGET /hello HTTP/1.1[0m" 404 -
+2024-12-08 12:57:35,835 - INFO - 127.0.0.1 - - [08/Dec/2024 12:57:35] "GET /static/css/errors.css HTTP/1.1" 200 -
+2024-12-08 12:57:43,243 - INFO - 127.0.0.1 - - [08/Dec/2024 12:57:43] "[33mGET /home HTTP/1.1[0m" 404 -
+2024-12-08 12:57:43,709 - INFO - 127.0.0.1 - - [08/Dec/2024 12:57:43] "[36mGET /static/css/errors.css HTTP/1.1[0m" 304 -
