@@ -56,7 +56,7 @@ novus/
 │       └── errors.css     # Styling for error pages
 │
 ├── .env                   # Environment variables file [Automatically Created]
-├── app.py                 # Main application script
+├── novus.py                 # Main application script
 ├── requirements.txt       # List of required Python packages
 └── README.md              # Project documentation
 ```
