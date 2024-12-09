@@ -75,7 +75,7 @@ novus/
 - **405 - Method Not Allowed**: Served by `templates/405.html`
 
 ## Logging
-Logs are stored in the `logs/` directory to monitor application activity. Ensure the directory exists or use the provided function to create it.
+Logs are stored in the `logs/` directory to monitor application activity. The directory will be creatd automatically during first run.
 
 ## Contributing
 Contributions are welcome! Please fork this repository, make your changes, and submit a pull request.
