@@ -19,8 +19,8 @@ Ensure that the following software is installed on your system:
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/yourprojectname.git
-   cd yourprojectname
+   git clone https://github.com/sirSevrus/novus.git
+   cd novus
    ```
 
 2. Install required Python packages:
@@ -28,22 +28,17 @@ Ensure that the following software is installed on your system:
    pip install -r requirements.txt
    ```
 
-3. Create and configure your `.env` file in the project root:
-   ```
-   APP_NAME=your_app_name
-   HOST=localhost
-   PORT=5000
-   DEBUG=true
-   ```
-
-4. Run the function to create a sample `.env` file if needed:
-   ```python
-   from your_module import create_env_file
-   create_env_file()
-   ```
+3. Run the application to create the **.env** file automatically and then edit it as per your needs.
+```bash
+python3 novus.py
+```
+- if you are on windows then do
+```bash
+python novus.py
+```
 
 ## Directory Structure
-Necessary directories like **templates**, **static** are already created during first run.
+Necessary directories like **templates**, **static** will be created automatically during first run.
 ```
 projectname/
 │
