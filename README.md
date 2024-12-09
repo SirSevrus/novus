@@ -40,21 +40,21 @@ python novus.py
 ## Directory Structure
 Necessary directories like **templates**, **static** will be created automatically during first run.
 ```
-projectname/
+novus/
 │
-├── routes/                # Route files (e.g., home.py, about.py, errors.py)
+├── routes/                # Route files (e.g., home.py, about.py, errors.py) [Automatically Created]
 │   └── errors.py          # Error handling routes
 │
-├── templates/             # HTML template files
+├── templates/             # HTML template files [Automatically Created]
 │   ├── 404.html           # Custom 404 page
 │   └── 405.html           # Custom 405 page
 │   └── index.html         # Main index page
 │
-├── static/                # Static files (CSS, JS, images)
+├── static/                # Static files (CSS, JS, images) [Automatically Created]
 │   └── css/               # CSS files
 │       └── errors.css     # Styling for error pages
 │
-├── .env                   # Environment variables file
+├── .env                   # Environment variables file [Automatically Created]
 ├── app.py                 # Main application script
 ├── requirements.txt       # List of required Python packages
 └── README.md              # Project documentation
