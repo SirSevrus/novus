@@ -1,6 +1,6 @@
 from colorama import Fore, init
 
-version = "0.5"
+version = "fluffy-fudgehead-0.51"
 
 init(autoreset=True)
 
