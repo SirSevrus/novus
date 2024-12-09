@@ -1,5 +1,5 @@
 # Novus
-
+A better form of flask webserver for develpoment purposes. The application is python based and saves time by automatically creating the necessary directories like templates, static and also .env file for configuring the server.
 ## Overview
 This project is a Flask-based web application designed for demonstrating structured route handling, error pages, and environment configuration. It includes modular route handling with separate Python files for each route, custom error handling templates, environment configuration, and dynamic CSS-styled error pages.
 
@@ -10,6 +10,7 @@ This project is a Flask-based web application designed for demonstrating structu
 - Comprehensive logging to track application activity.
 - Directory creation functions for setting up the project structure.
 - CSS-styled templates for better user experience.
+- Each route can be defined seperately inside routes and automatically loaded by server on run.
 
 ## Prerequisites
 Ensure that the following software is installed on your system:
