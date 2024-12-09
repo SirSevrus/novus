@@ -44,20 +44,17 @@ def register_routes(app, routes_folder='routes'):
 # Initial setup for the Flask app
 def setup_app():
     logging.info("Starting setup for the Flask app...")
-    createDirs()          # Creates necessary directories
-    create_index_html() # Creates the default index.html
-    create_error_html()
-    create_error_css()
-    create_error_route()
-    create_home_route()   # Creates the home route in routes/home.py
-    create_env_file()     # Creates .env file for environment variables
+    setup_flask_project()    
     load_dotenv()         # Load environment variables from the .env file
 
     app_name = os.getenv("APP_NAME")
     host = os.getenv("HOST", "localhost")
     port = int(os.getenv("PORT", 5000))
     debug = os.getenv("DEBUG", "false").lower() in ["true", "1", "t", "yes"]
-
+    if debug == True:
+        print(Fore.CYAN + "[" + Fore.YELLOW + "Novus" + Fore.CYAN + "] " + Fore.CYAN + "Debug mode active, to turn of it set DEBUG to 'false' in .env file.")
+    else:
+        print(Fore.CYAN + "[" + Fore.YELLOW + "Novus" + Fore.CYAN + "] " + Fore.CYAN + "Debug mode is not active, to turn it on set DEBUG to 'true' in .env file.")
     app = Flask(app_name)
     register_routes(app)
 
