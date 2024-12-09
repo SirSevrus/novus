@@ -88,3 +88,6 @@ This project is licensed under the [GPL-2.0] license. See the [LICENSE](./LICENS
 - `Flask` for the web framework
 - `tqdm` for progress bars
 - `colorama` for colured output
+
+## BETA NOTE
+This is the beta branch of the repository. The upcoming or untested features will be committed.
