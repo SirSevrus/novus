@@ -85,7 +85,7 @@ Logs are stored in the `logs/` directory to monitor application activity. Ensure
 Contributions are welcome! Please fork this repository, make your changes, and submit a pull request.
 
 ## License
-This project is licensed under the [Your License Name] license. See the [GPL-2.0](./LICENSE) file for more details.
+This project is licensed under the [GPL-2.0] license. See the [LICENSE](./LICENSE) file for more details.
 
 ## Acknowledgements
 - Flask for the web framework
