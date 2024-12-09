@@ -7,3 +7,4 @@ templates/*
 logs/*
 static/*
 routes/*
+gpush.bat

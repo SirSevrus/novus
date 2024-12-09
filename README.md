@@ -43,6 +43,7 @@ Ensure that the following software is installed on your system:
    ```
 
 ## Directory Structure
+Necessary directories like **templates**, **static** are already created during first run.
 ```
 projectname/
 │
@@ -88,6 +89,6 @@ Contributions are welcome! Please fork this repository, make your changes, and s
 This project is licensed under the [GPL-2.0] license. See the [LICENSE](./LICENSE) file for more details.
 
 ## Acknowledgements
-- Flask for the web framework
+- `Flask` for the web framework
 - `tqdm` for progress bars
-- Any other libraries or tools used in the project
+- `colorama` for colured output
